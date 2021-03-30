@@ -1,12 +1,16 @@
-name: "my hello action"
+# name: Docker Actions
 
-description: "say hello with GitHub Actions"
+# on: [push]
 
-inputs:
-  thirdGreeting:
-    description: "a third greeting"
-    required: false
+# jobs:
+#   action:
 
-runs:
-  using: "docker"
-  image: "Dockerfile"
+#     runs-on: ubuntu-latest
+
+#     steps:
+#     - uses: actions/checkout@v1
+
+#     - name: hello-action
+#       uses: ./.github/actions/hello-world
+#       with:
+#         firstGreeting: "Learning Lab User"
